@@ -1,14 +1,13 @@
 package com.course;
 
 import javax.annotation.PreDestroy;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 
-//万能入口应用程序
+//閫氱敤鍐欐硶锛岄兘閫傜敤
 @EnableScheduling
 @SpringBootApplication
 public class Application {
